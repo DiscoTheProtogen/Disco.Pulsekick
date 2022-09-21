@@ -1,0 +1,15 @@
+{
+    "Name": "Disco.Pulsekick",
+    "Description": "Kick a player when they die to a pulse blade",
+    "Version": "0.0.1",
+    "LoadPriority": 0,
+    "Scripts": [
+      {
+        "Path": "d_pulsekick.nut",
+        "RunOn": "SERVER && MP",
+        "ServerCallback": {
+          "After": "PulsekickInit"
+        }
+      }
+    ]
+  }
