@@ -1,8 +1,19 @@
 {
     "Name": "Disco.Pulsekick",
     "Description": "Kick a player when they die to a pulse blade",
-    "Version": "0.0.1",
+    "Version": "0.0.2",
     "LoadPriority": 0,
+
+    "ConVars": [
+      {
+        "Name": "SendInstalledOnJoined",
+        "DefaultValue": "1"
+      },
+      {
+        "Name": "Joinmsg",
+        "DefaultValue": "This server has PulseKick installed! If you die by pulse blade, You are kicked from the server!"
+      }
+    ],
     "Scripts": [
       {
         "Path": "d_pulsekick.nut",
